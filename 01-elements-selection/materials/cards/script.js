@@ -1,0 +1,15 @@
+$(document).ready(function() {
+
+ 	$("#stream1_btn").on("click", function() {
+ 		$(".card").removeClass('highlight_stream');
+	  	$(".stream1").addClass('highlight_stream');
+	});
+	$("#stream2_btn").on("click", function() {
+		$(".card").removeClass('highlight_stream');
+	  	$(".stream2").addClass('highlight_stream');
+	});
+	$("#stream3_btn").on("click", function() {
+		$(".card").removeClass('highlight_stream');
+	  	$(".stream3").addClass('highlight_stream');
+	});
+});

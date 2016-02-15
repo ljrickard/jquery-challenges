@@ -1,0 +1,29 @@
+div {
+    height: 80px;
+    width: 250px;
+    border-radius: 5px;
+    text-align: center;
+    background-color: #555;
+    color: #FFF;
+    font-family: dosis;
+    font-size: 2em;
+    padding-top: 30px;
+   /* display: none;*/
+   border: solid 2px #fff;   /* border used to stop jump when border is applied*/
+}
+p{
+	font-family: dosis;
+	font-size: 1.5em;
+	margin-left: 10px;
+	width:280px;
+}
+.makeBlue{
+   background-color: #81BBC9;
+}
+
+.makeBorder{
+	border: solid 2px #000;
+}
+.makeTextBlack{
+   color: #000;
+}
